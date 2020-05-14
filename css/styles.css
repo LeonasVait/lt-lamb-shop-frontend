@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+main {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+main > section {
+  font-size: 200px;
+  scroll-snap-align: start;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+}
+
+main > section > div {
+  flex: 1;
+  margin: 5px 0 5px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.3);
+}
