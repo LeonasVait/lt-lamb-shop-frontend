@@ -7,10 +7,11 @@ main {
   height: 100vh;
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
+  background-image: url(../img/bg-pattern.jpg);
 }
 
 main > section {
-  font-size: 200px;
+  font-size: 30px;
   scroll-snap-align: start;
   height: 100vh;
 
@@ -24,5 +25,20 @@ main > section > div {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.3);
+  /* background-color: rgba(0, 0, 0, 0.3); */
+}
+
+.MainpageInfoBox {
+  font-family: DejaVu Sans Mono, monospace;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #808080;
+  margin-left: 10vh;
+  height: 70%;
+  width: 30%;
+}
+.logitipasMainPage {
+  align-items: center;
 }
