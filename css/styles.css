@@ -7,7 +7,6 @@ main {
   height: 100vh;
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
-  background-image: url(../img/bg-pattern.jpg);
 }
 
 main > section {
@@ -25,9 +24,11 @@ main > section > div {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-color: rgba(0, 0, 0, 0.3); */
+  background-color: rgba(0, 0, 0, 0.3);
 }
-
+.mainPage {
+  background-image: url(../img/bg-pattern.jpg);
+}
 .MainpageInfoBox {
   font-family: DejaVu Sans Mono, monospace;
   display: flex;
@@ -38,7 +39,16 @@ main > section > div {
   margin-left: 10vh;
   height: 70%;
   width: 30%;
+  /* nesutvarkyta text decoration */
 }
 .logitipasMainPage {
   align-items: center;
+}
+#kontaktai {
+  display: inline-block;
+}
+.googleMaps {
+  float: inline-start;
+  height: 30%;
+  width: 100%;
 }
